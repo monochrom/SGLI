@@ -1,0 +1,36 @@
+{
+  "color": {
+    "text": {
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.700}"
+      }
+    },
+    "bg": {
+      "module": {
+        "$type": "color",
+        "$value": "{color.surface.400}"
+      }
+    },
+    "toggle": {
+      "track-off": {
+        "$type": "color",
+        "$value": "{color.neutral.500}"
+      }
+    },
+    "interactive-secondary": {
+      "$type": "color",
+      "$value": "{color.secondary.700}"
+    },
+    "interactive-secondary-hover": {
+      "$type": "color",
+      "$value": "{color.secondary.800}"
+    },
+    "feedback": {
+      "error": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      }
+    }
+  }
+}

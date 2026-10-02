@@ -1,0 +1,270 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.600}"
+      }
+    },
+    "bg": {
+      "page": {
+        "$type": "color",
+        "$value": "{color.surface.100}"
+      },
+      "card": {
+        "$type": "color",
+        "$value": "{color.surface.50}"
+      },
+      "inset": {
+        "$type": "color",
+        "$value": "{color.surface.100}"
+      },
+      "module": {
+        "$type": "color",
+        "$value": "{color.surface.50}"
+      }
+    },
+    "divider": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-20}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "focus-inner": {
+        "$type": "color",
+        "$value": "{color.neutral.0}"
+      },
+      "focus-outer": {
+        "$type": "color",
+        "$value": "{color.primary.900}"
+      }
+    },
+    "interactive": {
+      "$type": "color",
+      "$value": "{color.primary.600}"
+    },
+    "interactive-hover": {
+      "$type": "color",
+      "$value": "{color.primary.700}"
+    },
+    "interactive-secondary": {
+      "$type": "color",
+      "$value": "{color.secondary.600}"
+    },
+    "interactive-secondary-hover": {
+      "$type": "color",
+      "$value": "{color.secondary.700}"
+    },
+    "feedback": {
+      "error": {
+        "$type": "color",
+        "$value": "{color.error.dark}"
+      },
+      "error-bg": {
+        "$type": "color",
+        "$value": "{color.error.bg}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.success.dark}"
+      },
+      "success-bg": {
+        "$type": "color",
+        "$value": "{color.success.bg}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.warning.dark}"
+      },
+      "warning-bg": {
+        "$type": "color",
+        "$value": "{color.warning.bg}"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{color.primary.600}"
+      },
+      "info-bg": {
+        "$type": "color",
+        "$value": "{color.primary.50}"
+      }
+    },
+    "icon": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      }
+    },
+    "button": {
+      "primary": {
+        "bg": {
+          "$type": "color",
+          "$value": "{color.primary.900}"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{color.primary.700}"
+        },
+        "bg-pressed": {
+          "$type": "color",
+          "$value": "{color.primary.600}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{color.neutral.0}"
+        }
+      },
+      "secondary": {
+        "fg": {
+          "$type": "color",
+          "$value": "{color.neutral.900}"
+        },
+        "fg-hover": {
+          "$type": "color",
+          "$value": "{color.primary.600}"
+        },
+        "fg-pressed": {
+          "$type": "color",
+          "$value": "{color.primary.700}"
+        }
+      },
+      "icon": {
+        "border": {
+          "$type": "color",
+          "$value": "{color.neutral.900}"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{color.neutral.alpha.900-5}"
+        },
+        "bg-pressed": {
+          "$type": "color",
+          "$value": "{color.neutral.alpha.900-10}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{color.neutral.900}"
+        }
+      }
+    },
+    "toggle": {
+      "track-off": {
+        "$type": "color",
+        "$value": "{color.neutral.400}"
+      },
+      "track-on": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "thumb": {
+        "$type": "color",
+        "$value": "{color.neutral.0}"
+      }
+    },
+    "chip": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-0}"
+      },
+      "bg-hover": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-10}"
+      },
+      "bg-active": {
+        "$type": "color",
+        "$value": "{color.primary.900}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.neutral.900}"
+      },
+      "fg-active": {
+        "$type": "color",
+        "$value": "{color.neutral.0}"
+      },
+      "badge-bg": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-10}"
+      },
+      "badge-bg-active": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.0-20}"
+      },
+      "badge-fg": {
+        "$type": "color",
+        "$value": "{color.primary.900}"
+      },
+      "badge-fg-active": {
+        "$type": "color",
+        "$value": "{color.neutral.0}"
+      }
+    },
+    "filter-cell": {
+      "bg-hover": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-5}",
+        "$description": "Semantic color for filter-cell; follows color/button/icon/bg-hover."
+      },
+      "bg-pressed": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-10}",
+        "$description": "Semantic color for filter-cell; follows color/button/icon/bg-pressed."
+      },
+      "bg-active": {
+        "$type": "color",
+        "$value": "{color.primary.900}",
+        "$description": "Semantic color for filter-cell; follows color/chip/bg-active."
+      },
+      "fg-active": {
+        "$type": "color",
+        "$value": "{color.neutral.0}",
+        "$description": "Semantic color for filter-cell; follows color/chip/fg-active."
+      },
+      "count-active": {
+        "$type": "color",
+        "$value": "{color.neutral.0}",
+        "$description": "Semantic color for filter-cell; follows color/chip/badge-fg-active."
+      },
+      "status": {
+        "$type": "color",
+        "$value": "{color.accent.highlight}"
+      }
+    },
+    "navigation-menu": {
+      "fg": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Navigation menu foreground."
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-20}",
+        "$description": "Navigation menu divider."
+      },
+      "border-hover": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$description": "Navigation menu divider on hover and current states."
+      },
+      "border-pressed": {
+        "$type": "color",
+        "$value": "{color.primary.700}",
+        "$description": "Navigation menu divider while pressed."
+      },
+      "indicator": {
+        "$type": "color",
+        "$value": "{color.neutral.alpha.900-20}",
+        "$description": "Current navigation item indicator."
+      }
+    }
+  }
+}

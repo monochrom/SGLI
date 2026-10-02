@@ -1,0 +1,20 @@
+{
+  "color": {
+    "bg": {
+      "inset": {
+        "$type": "color",
+        "$value": "{color.surface.300}"
+      },
+      "module": {
+        "$type": "color",
+        "$value": "{color.surface.200}"
+      }
+    },
+    "toggle": {
+      "track-off": {
+        "$type": "color",
+        "$value": "{color.neutral.500}"
+      }
+    }
+  }
+}
